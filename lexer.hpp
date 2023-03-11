@@ -64,7 +64,8 @@
 		        else if(begin == '#'){
 		            while(i < code.length() && code.at(i) != '\n')
 		                i++;
-		            i--;
+		            i++;
+                continue;
 		        }
 		        
 		        // special characters
